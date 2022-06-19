@@ -67,3 +67,46 @@ header nav ul li:hover {
 }
 
 /*End header section*/
+/*Body section*/
+
+.image {
+    background-image: url(../images/jantine-doornbos-HvYy5SEefC8-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+    height: 800px;
+    width: 100%;
+    filter: brightness(80%);
+}
+
+.image-skills {
+    width: 25%;
+    text-align: left;
+    margin: 3.5%;
+    color: #000000;
+    font-size: 20px;
+    line-height: 1.2;
+    left: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    margin: 75px 0;
+}
+
+.image-skills h2 {
+    font-style: italic;
+    font-size: 45px;
+    color: lightgreen;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    
+}
+/*End body section*/
