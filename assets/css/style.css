@@ -68,7 +68,7 @@ header nav ul li:hover {
 
 /*End header section*/
 /*Body section*/
-
+    /*image section*/
 .image {
     background-image: url(../images/jantine-doornbos-HvYy5SEefC8-unsplash.jpg);
     background-size: cover;
@@ -107,6 +107,81 @@ header nav ul li:hover {
     color: lightgreen;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     display: flex;
+}
+
+    /*End image section*/
+    /*Bio section*/
+
+.bio {
+    background-color: #191970;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bio h2 {
+    border-right: 3px solid lawngreen;
+    font-size: 48px;
+    margin: 20px;
+    padding: 60px;
+    color: lightgreen;
+}
+
+.bio p {
+    line-height: 1.2;
+    color: lightgreen;
+    width: 70%;
+    font-size: 18px;
+    text-align: left;
+    padding: 10px 20px;
+    margin-left: 20px;
+}
+    /*Bio section*/
+    /*Work-samples section*/
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #191970;
+}
+    
+.projects h2 {
+    border-right: 3px solid lawngreen;
+    font-size: 48px;
+    margin: 20px;
+    padding: 60px 5px;
+    color: lightgreen;
+}
+
+.projects-links {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.run-buddy {
+    position: absolute;
+    padding: 0 15px;
+    margin: 0;
+    display: inline-block;
     
 }
+
+.run-buddy img {
+    max-width: 13%;
+    max-height: 20%;
+}
+
+.run-buddy img:hover {
+    max-width: 40%;
+    max-height: 40%;
+}
+
+.run-buddy h3 {
+    font-size: 32px;
+    color: #fce138;
+    margin: 0;
+}
+
+    /*End Work-samples section*/
 /*End body section*/
