@@ -238,3 +238,119 @@ footer h2 {
     flex-wrap: wrap;
 }
 /*End footer setion*/
+
+/*Media query*/
+
+@media screen and (max-width: 980px) {
+    .bio p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .bio h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .image-skills {
+        width: 100%;
+        position: none;
+    }
+
+    .image-skills h2 {
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+        color: navy;
+    }
+
+    .image {
+        background-attachment: inherit;
+    }
+
+    .image-skills p {
+        color: lightgreen;
+        filter: brightness(60%);
+    }
+
+    .image-skills ul {
+        color: lightgreen;
+        filter: brightness(60%);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bio p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .bio h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .image-skills {
+        width: 100%;
+        position: none;
+    }
+
+    .image-skills h2 {
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+        color: navy;
+    }
+
+    .image {
+        background-attachment: inherit;
+    }
+
+    .image-skills p {
+        color: lightgreen;
+        filter: brightness(60%);
+    }
+
+    .image-skills ul {
+        color: lightgreen;
+        filter: brightness(60%);
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .bio p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .bio h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .image-skills {
+        width: 100%;
+        position: none;
+    }
+
+    .image-skills h2 {
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+        color: navy;
+    }
+
+    .image {
+        background-attachment: inherit;
+    }
+
+    .image-skills p {
+        color: lightgreen;
+        filter: brightness(60%);
+    }
+
+    .image-skills ul {
+        color: lightgreen;
+        filter: brightness(60%);
+    }
+}
