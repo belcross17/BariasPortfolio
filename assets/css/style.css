@@ -113,7 +113,7 @@ header nav ul li:hover {
     /*Bio section*/
 
 .bio {
-    background-color: #191970;
+    background-color: #191c4d;
     display: flex;
     flex-wrap: wrap;
 }
@@ -140,15 +140,15 @@ header nav ul li:hover {
 
 .projects {
     display: flex;
-    flex-wrap: wrap;
-    background-color: #191970;
+    
+    background-color: #191c4d;
 }
     
 .projects h2 {
     border-right: 3px solid lawngreen;
     font-size: 48px;
     margin: 20px;
-    padding: 60px 5px;
+    padding: 60px 71px;
     color: lightgreen;
 }
 
@@ -160,21 +160,25 @@ header nav ul li:hover {
 }
 
 .run-buddy {
-    position: absolute;
-    padding: 0 15px;
+    position: relative;
+    padding: 60px;
     margin: 0;
-    display: inline-block;
+    display: grid;
     
 }
 
 .run-buddy img {
-    max-width: 13%;
-    max-height: 20%;
+    max-width: 80%;
+    max-height: 80%;
+    filter: brightness(50%);
+    transition: 0.5s;
 }
 
 .run-buddy img:hover {
-    max-width: 40%;
-    max-height: 40%;
+    max-width: 110%;
+    max-height: 125%;
+    transition: 0.5s;
+    filter: brightness(100%);
 }
 
 .run-buddy h3 {
@@ -185,3 +189,21 @@ header nav ul li:hover {
 
     /*End Work-samples section*/
 /*End body section*/
+
+/*Footer section*/
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #191c4d;
+}
+
+footer h2 {
+    border-right: 3px solid lawngreen;
+    font-size: 48px;
+    margin: 0;
+    padding: 60px 50px;
+    color: lightgreen;
+}
+
+/*End footer setion*/
