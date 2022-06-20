@@ -142,6 +142,7 @@ header nav ul li:hover {
     max-height: 400px;
     margin: 0;
     padding: 20px;
+    padding-top: 40px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -216,4 +217,24 @@ footer h2 {
     color: lightgreen;
 }
 
+.contact-me {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact-me-info {
+    line-height: 1.2;
+    color: lightgreen;
+    font-size: 20px;
+    text-align: left;
+    padding: 20px;
+    padding-top: 40px;
+    margin-left: 20px;
+}
+
+.contact-me-info a {
+    display: flex;
+    flex-wrap: wrap;
+}
 /*End footer setion*/
