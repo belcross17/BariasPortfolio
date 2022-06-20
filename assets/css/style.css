@@ -130,10 +130,20 @@ header nav ul li:hover {
     line-height: 1.2;
     color: lightgreen;
     width: 70%;
-    font-size: 18px;
+    font-size: 20px;
     text-align: left;
-    padding: 10px 20px;
+    padding: 20px;
+    padding-top: 40px;
     margin-left: 20px;
+}
+
+.bio img {
+    max-width: 100%;
+    max-height: 400px;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
 }
     /*Bio section*/
     /*Work-samples section*/
