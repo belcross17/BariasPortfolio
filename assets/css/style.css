@@ -109,6 +109,10 @@ header nav ul li:hover {
     display: flex;
 }
 
+.image-skills ul li a {
+    color: lightgreen;
+}
+
     /*End image section*/
     /*Bio section*/
 
@@ -145,6 +149,7 @@ header nav ul li:hover {
     padding-top: 40px;
     display: flex;
     flex-wrap: wrap;
+    border-radius: 30%;
 }
     /*Bio section*/
     /*Work-samples section*/
@@ -231,10 +236,27 @@ footer h2 {
     margin-left: 20px;
 }
 
-.contact-me-info a {
+.contact-me-info a, p {
     display: flex;
     flex-wrap: wrap;
+    font-size: 30px;
+    text-decoration: none;
 }
+
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: blue;
+}
+
+.fa:hover {
+    background-color: lightgreen;
+    border-radius: 15px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+}
+
 /*End footer setion*/
 
 /*Media query*/
@@ -248,6 +270,10 @@ footer h2 {
     .bio h2 {
         width: 100%;
         text-align: center;
+    }
+
+    .bio  {
+        justify-content: center;
     }
 
     .image-skills {
