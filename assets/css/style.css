@@ -243,6 +243,11 @@ footer h2 {
     text-decoration: none;
 }
 
+.contact-me-info a:hover {
+    color: #fce138;
+    text-decoration: none;
+}
+
 .fa {
     padding: 10px;
     font-size: 20px;
@@ -255,6 +260,7 @@ footer h2 {
     border-radius: 15px;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     text-decoration: none;
+    color: #fce138;
 }
 
 /*End footer setion*/
