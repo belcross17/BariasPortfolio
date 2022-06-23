@@ -265,7 +265,7 @@ footer h2 {
     padding: 0 60px;
 }
 
-.resume img {
+.resume a img {
     width: 200px;
     height: 300px;
     display: flex;
@@ -273,7 +273,7 @@ footer h2 {
     transition: 0.5s;
 }
 
-.resume img:hover {
+.resume a img:hover {
     width: 250px;
     height: 400px;
     transition: 0.5s;
@@ -347,7 +347,7 @@ footer h2 {
         flex-direction: column;
     }
 
-    #resume img{
+    #resume a img{
         max-width: 100%;
         max-height: 100%;
     }
@@ -390,7 +390,7 @@ footer h2 {
         filter: contrast(80%);
     }
 
-    #resume img{
+    #resume a img{
         max-width: 100%;
         max-height: 100%;
     }
@@ -441,7 +441,7 @@ footer h2 {
         width: auto;
     }
 
-    #resume img{
+    #resume a img{
         max-width: 100%;
         max-height: 100%;
     }
