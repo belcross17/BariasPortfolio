@@ -19,7 +19,7 @@
 
 #### Screenshots of full website
 
-![screenshot](../challenge2/assets/images/Screenshot%20(16).png)
-![screenshot](../challenge2/assets/images/Screenshot%20(17).png)
-![screenshot](../challenge2/assets/images/Screenshot%20(18).png)
-![screenshot](../challenge2/assets/images/Screenshot%20(19).png)
+![screenshot](./assets/images/Screenshot%20(16).png)
+![screenshot](./assets/images/Screenshot%20(17).png)
+![screenshot](./assets/images/Screenshot%20(18).png)
+![screenshot](./assets/images/Screenshot%20(19).png)
